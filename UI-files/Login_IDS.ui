@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>913</width>
+    <height>549</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(35, 35, 35);</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>370</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 193, 150);
+border: 2px solid rgb(0, 193, 150);
+border-color: rgb(0, 193, 150);
+padding: 10px;
+border-radius: 25px;
+</string>
+   </property>
+   <property name="text">
+    <string>Sign In</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>300</y>
+     <width>381</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 193, 150);</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>190</y>
+     <width>381</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 193, 150);
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>140</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 193, 150);</string>
+   </property>
+   <property name="text">
+    <string>Username</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>250</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 193, 150);</string>
+   </property>
+   <property name="text">
+    <string>Password</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>80</y>
+     <width>351</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/spartan_logo/SpartanIDS_official_logo.png);
+height: 100px;
+width: 500px;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>400</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/spartan_text/SpartanIDS Text.png);
+height: 100px;
+width: 500px;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>430</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 193, 150);
+border: 2px solid rgb(35, 35, 35);
+</string>
+   </property>
+   <property name="text">
+    <string>Forgot Password ?</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="SpartanIDS_official_logo_label..jpg"/>
+ </resources>
+ <connections/>
+</ui>
