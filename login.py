@@ -6,10 +6,6 @@ import spartan
 import os
 import time
 
-#--------------------------------------------------------------------------------------------------------#
-#                            Class for the UI Dialog / Initial Screen 
-#--------------------------------------------------------------------------------------------------------#
-
 class Ui_Dialog(object):
     def openWindow(self):
         self.window = QtWidgets.QMainWindow()
@@ -27,6 +23,7 @@ class Ui_Dialog(object):
         if(self.username1 == u and self.password1 == p):
             print("User Found !")
             self.openWindow()
+                #display warning for invalid username and password
              
         else:
             print("User Not Found !")
@@ -113,10 +110,6 @@ class Ui_Dialog(object):
         self.label_3.setText(_translate("Dialog", "<html><head/><body><p><br/></p></body></html>"))
         self.label_4.setText(_translate("Dialog", "<html><head/><body><p><br/></p></body></html>"))
         self.pushButton_2.setText(_translate("Dialog", "Forgot Password ?"))
-
-#--------------------------------------------------------------------------------------------------------#
-#                                    Class for displaying the menu
-#--------------------------------------------------------------------------------------------------------#
 
 class menu(object):
     def key(self):
@@ -223,6 +216,15 @@ class menu(object):
         self.pushButton_5.setText(_translate("menu_sc", "Exit"))
         self.label.setText(_translate("menu_sc", "<html><head/><body><p><br/></p></body></html>"))
 
+        
+        
+        
+        
+        
+        
+        
+        
+        
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
