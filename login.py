@@ -1,11 +1,14 @@
 # -*- coding: utf-8 -*-
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-
 import genKeys
 import spartan
 import os
 import time
+
+#-------------------------------------------------------------------------------------------------------
+#                                Class for adding initial login screen 
+#-------------------------------------------------------------------------------------------------------
 
 class Ui_Dialog(object):
     def openWindow(self):
@@ -24,7 +27,6 @@ class Ui_Dialog(object):
         if(self.username1 == u and self.password1 == p):
             print("User Found !")
             self.openWindow()
-                #self.showMessageBox('Warning','valid Username And Password')
         else:
             print("User Not Found !")
 
@@ -110,8 +112,11 @@ class Ui_Dialog(object):
         self.label_3.setText(_translate("Dialog", "<html><head/><body><p><br/></p></body></html>"))
         self.label_4.setText(_translate("Dialog", "<html><head/><body><p><br/></p></body></html>"))
         self.pushButton_2.setText(_translate("Dialog", "Forgot Password ?"))
-#--------------------------------------------------------------------------------------------------------#
 
+#-------------------------------------------------------------------------------------------------------
+#                                Class for adding the menu screen 
+#-------------------------------------------------------------------------------------------------------
+       
 class menu(object):
     def key(self):
         genKeys.main()
@@ -216,11 +221,6 @@ class menu(object):
         self.pushButton_4.setText(_translate("menu_sc", "Help"))
         self.pushButton_5.setText(_translate("menu_sc", "Exit"))
         self.label.setText(_translate("menu_sc", "<html><head/><body><p><br/></p></body></html>"))
-
-
-
-
-
 
 if __name__ == "__main__":
     import sys
